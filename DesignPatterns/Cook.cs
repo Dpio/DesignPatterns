@@ -17,7 +17,6 @@
         public void MakePizza(PizzaBuilder pizzaBuilder)
         {
             _pizzaBuilder = pizzaBuilder;
-            _pizzaBuilder.CreateNewPizzaProduct();
             _pizzaBuilder.BuildDough();
             _pizzaBuilder.BuildSauce();
             _pizzaBuilder.BuildTopping();

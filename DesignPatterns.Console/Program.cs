@@ -13,6 +13,8 @@
 
             cook.MakePizza(spicyPizzaBuilder);
             System.Console.WriteLine(cook.OpenPizza());
+            
+            System.Console.WriteLine(cook.MakePizza("spicy"));
         }
     }
 }

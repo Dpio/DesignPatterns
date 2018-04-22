@@ -21,5 +21,11 @@
             _pizzaBuilder.BuildSauce();
             _pizzaBuilder.BuildTopping();
         }
+
+        public string MakePizza(string type)
+        {
+            var pizza = new PizzaFactory().Create(type);
+            return pizza.ToString();
+        }
     }
 }

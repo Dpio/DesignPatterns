@@ -11,5 +11,10 @@
         {
             return Pizza;
         }
+
+        public void CreateNewPizzaProduct()
+        {
+            Pizza = new Pizza();
+        }
     }
 }

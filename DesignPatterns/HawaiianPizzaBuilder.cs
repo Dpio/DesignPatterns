@@ -14,7 +14,7 @@
 
         public override void BuildTopping()
         {
-            Pizza.Topping = "ham+pineapple";
+            Pizza.Topping = new[] { "ham", "pineapple" };
         }
     }
 }

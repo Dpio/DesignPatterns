@@ -7,13 +7,16 @@
             switch (type)
             {
                 case "hawaiian":
-                    var hawaii = new HawaiianPizzaBuilder().Build();
+                    var hawaiianPizzaBuilder = new HawaiianPizzaBuilder();
+                    var hawaii = hawaiianPizzaBuilder.Build();
                     return hawaii;
                 case "spicy":
-                    var spicy = new SpicyPizzaBuilder().Build();
+                    var spicyPizzaBuilder = new SpicyPizzaBuilder();
+                    var spicy = spicyPizzaBuilder.Build();
                     return spicy;
                 default:
-                    var pizza = new MargritaPizzaBuilder().Build();
+                    var margritaPizzaBuilder = new MargritaPizzaBuilder();
+                    var pizza = margritaPizzaBuilder.Build();
                     return pizza;
             }
         }
